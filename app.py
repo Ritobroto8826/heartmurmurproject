@@ -53,12 +53,8 @@ if uploaded_file is not None:
 
         # Optional: show probabilities clearly
         st.write("Prediction Probabilities:")
-        st.write({
-            "Artifact": float(prediction[0][0]),
-            "Normal": float(prediction[0][1]),
-            "Murmur": float(prediction[0][2])
-        })
-
+        st.write("Raw Prediction Probabilities:", prediction)
+        
         logger.info(
             f"Prediction completed for uploaded file: {uploaded_file.name}"
         )
