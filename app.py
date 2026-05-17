@@ -18,7 +18,7 @@ classes = {
     2: "Murmur"
 }
 
-st.title("Heart Murmur Detection with LSTM")
+st.title(" 🫀 Heart Murmur Detection with LSTM")
 
 uploaded_file = st.file_uploader(
     "Upload a heart sound recording (WAV/MP3 format)",
